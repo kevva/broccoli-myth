@@ -17,7 +17,7 @@ tree = myth(tree);
 
 ### myth(tree)
 
-Initialize a new rework with the given string of regular CSS.
+Initialize a new myth with the given string of regular CSS.
 
 ## License
 
