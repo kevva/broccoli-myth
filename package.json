@@ -1,0 +1,44 @@
+{
+  "name": "broccoli-myth",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [
+    "broccoli-plugin",
+    "compile",
+    "css",
+    "myth",
+    "preprocess",
+    "preprocessor",
+    "style",
+    "stylesheet"
+  ],
+  "homepage": "https://github.com/kevva/broccoli-myth",
+  "bugs": "https://github.com/kevva/broccoli-myth/issues",
+  "author": {
+    "name": "Kevin Mårtensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "https://github.com/kevva"
+  },
+  "license": "MIT",
+  "repository": "git://github.com/kevva/broccoli-myth.git",
+  "scripts": {
+    "test": "broccoli build test/tmp && mocha --reporter list"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "broccoli-filter": "0.0.1",
+    "myth": "~0.3.0"
+  },
+  "devDependencies": {
+    "broccoli": "~0.1.1",
+    "mocha": "~1.17.0",
+    "rework-calc": "~0.2.1",
+    "rimraf": "~2.2.6"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
