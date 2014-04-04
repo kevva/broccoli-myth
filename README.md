@@ -1,12 +1,14 @@
 # broccoli-myth [![Build Status](https://travis-ci.org/kevva/broccoli-myth.png?branch=master)](http://travis-ci.org/kevva/broccoli-myth)
 
-Preprocess CSS with [Myth](https://github.com/segmentio/myth).
+> Preprocess CSS with [Myth](https://github.com/segmentio/myth).
 
-## Getting started
+## Install
 
-Install with [npm](https://npmjs.org/package/broccoli-myth): `npm install --save broccoli-myth`
+```bash
+$ npm install --save broccoli-myth
+```
 
-## Examples
+## Usage
 
 ```js
 var myth = require('broccoli-myth');
@@ -21,4 +23,4 @@ Initialize a new myth with the given string of regular CSS.
 
 ## License
 
-[MIT License](http://en.wikipedia.org/wiki/MIT_License) (c) [Kevin Mårtensson](https://github.com/kevva)
+[MIT License](http://en.wikipedia.org/wiki/MIT_License) © [Kevin Mårtensson](https://github.com/kevva)
