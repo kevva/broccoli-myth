@@ -1,4 +1,4 @@
-# broccoli-myth [![Build Status](https://travis-ci.org/kevva/broccoli-myth.png?branch=master)](http://travis-ci.org/kevva/broccoli-myth)
+# broccoli-myth [![Build Status](https://travis-ci.org/kevva/broccoli-myth.svg?branch=master)](https://travis-ci.org/kevva/broccoli-myth)
 
 > Preprocess CSS with [Myth](https://github.com/segmentio/myth).
 
