@@ -29,13 +29,13 @@
     "stylesheet"
   ],
   "dependencies": {
-    "broccoli-filter": "^0.0.1",
+    "broccoli-filter": "^0.1.6",
     "myth": "^0.3.0"
   },
   "devDependencies": {
-    "broccoli": "^0.1.1",
-    "mocha": "^1.17.0",
-    "rework-calc": "^0.2.1",
+    "broccoli": "^0.9.0",
+    "broccoli-cli": "0.0.1",
+    "mocha": "^1.18.2",
     "rimraf": "^2.2.6"
   }
 }
