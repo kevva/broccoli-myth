@@ -13,7 +13,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "broccoli build test/tmp && mocha --reporter list"
+    "test": "broccoli build test/tmp && node test/test.js"
   },
   "files": [
     "index.js"
@@ -33,9 +33,9 @@
     "myth": "^1.2.1"
   },
   "devDependencies": {
+    "ava": "0.0.4",
     "broccoli": "^0.13.2",
     "broccoli-cli": "~0.0.1",
-    "mocha": "^1.21.5",
     "rimraf": "^2.2.6"
   }
 }
