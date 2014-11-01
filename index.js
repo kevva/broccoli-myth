@@ -11,11 +11,11 @@ var myth = require('myth');
  */
 
 function MythFilter(inputTree) {
-    if (!(this instanceof MythFilter)) {
-        return new MythFilter(inputTree);
-    }
+	if (!(this instanceof MythFilter)) {
+		return new MythFilter(inputTree);
+	}
 
-    this.inputTree = inputTree;
+	this.inputTree = inputTree;
 }
 
 /**
@@ -40,7 +40,7 @@ MythFilter.prototype.targetExtension = 'css';
  */
 
 MythFilter.prototype.processString = function (str) {
-    return myth(str);
+	return myth(str);
 };
 
 /**
