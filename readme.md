@@ -5,14 +5,13 @@
 ## Install
 
 ```bash
-$ npm install --save broccoli-myth
+$ npm install --save-dev broccoli-myth
 ```
 
 ## Usage
 
 ```js
 var myth = require('broccoli-myth');
-
 tree = myth(tree);
 ```
 
