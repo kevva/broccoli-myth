@@ -2,11 +2,13 @@
 
 > Preprocess CSS with [Myth](https://github.com/segmentio/myth)
 
+
 ## Install
 
-```bash
+```
 $ npm install --save-dev broccoli-myth
 ```
+
 
 ## Usage
 
@@ -15,11 +17,13 @@ var myth = require('broccoli-myth');
 tree = myth(tree);
 ```
 
+
 ## API
 
 ### myth(tree)
 
 Initialize a new myth with the given string of regular CSS.
+
 
 ## License
 

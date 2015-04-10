@@ -2,7 +2,7 @@
 
 var fs = require('fs');
 var path = require('path');
-var rm = require('rimraf');
+var rimraf = require('rimraf');
 var test = require('ava');
 
 test('transpile CSS', function (t) {
@@ -13,12 +13,12 @@ test('transpile CSS', function (t) {
 
 	fs.readFile(dest, 'utf8', function (err, data) {
 		t.assert(!err, err);
-		t.assert(data === css);
+		t.assert(data === css, data);
 
-		rm(path.join(__dirname, 'tmp'), function (err) {
+		rimraf(path.join(__dirname, 'tmp'), function (err) {
 			t.assert(!err, err);
 
-			rm(path.join(__dirname, '../tmp'), function (err) {
+			rimraf(path.join(__dirname, '../tmp'), function (err) {
 				t.assert(!err, err);
 			});
 		});
