@@ -1,6 +1,6 @@
 {
   "name": "broccoli-myth",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Preprocess CSS with Myth",
   "license": "MIT",
   "repository": "kevva/broccoli-myth",
