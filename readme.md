@@ -20,7 +20,7 @@ tree = myth(tree);
 
 ## API
 
-### myth(tree)
+### myth(tree, options)
 
 Initialize a new myth with the given string of regular CSS.
 
