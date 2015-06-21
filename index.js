@@ -1,5 +1,4 @@
 'use strict';
-
 var Filter = require('broccoli-filter');
 var myth = require('myth');
 
